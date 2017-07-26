@@ -1,0 +1,12 @@
+Package: familyRisk
+Title: Evaluating conditional mean of disease risk using family history
+Version: 0.0.0.9000
+Authors@R: person("Jungsoo", "Gim", email = "iedenkim@gmail.com", role = c("aut", "cre"))
+Description: This package calculates a conditional mean of disease risk from family history. From an input file of FAM format in plink, conditional mean of disease risk of the selected individuals in the dataset is evaluated.
+Depends: R (>= 3.2.2)
+Imports: 
+	kinship2 (>= 1.6.4),
+License: GPL
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
